@@ -30,7 +30,10 @@ mongoose.connect('mongodb://localhost:27017/backend',{ useNewUrlParser: true,use
     if(err){
         console.log('DB not connected successfully')
     }
-    console.log('DB connected successfully')
+    else{
+        console.log('DB connected successfully')
+    }
+   
 }
 )
 

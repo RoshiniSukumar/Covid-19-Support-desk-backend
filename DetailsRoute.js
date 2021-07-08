@@ -38,7 +38,8 @@ router.post('/',async(req,res) =>{
 //     });
 
 router.put('/',async(req,res) =>{
-    console.log(req.body.hospitalname);
+    console.log(req.body);
+    console.log("im in put")
     var update = await Details.updateOne({hospitalname:req.body.hospitalname},{$set:{
         
         normalbed:req.body.normalbed,
