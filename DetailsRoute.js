@@ -19,7 +19,8 @@ router.post('/',async(req,res) =>{
         normalbed:req.body.normalbed,
         icubed:req.body.icubed,
         o2bed:req.body.o2bed,
-        total:req.body.total 
+        total:req.body.total ,
+        date:req.body.date
     });
     await detail.save();
     res.json(detail);
@@ -45,7 +46,8 @@ router.put('/',async(req,res) =>{
         normalbed:req.body.normalbed,
         icubed:req.body.icubed,
         o2bed:req.body.o2bed,
-        total:req.body.total
+        total:req.body.total,
+        date:req.body.date
     }
 
     });

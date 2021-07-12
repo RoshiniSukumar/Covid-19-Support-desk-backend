@@ -31,6 +31,10 @@ const DetailsSchema = mongoose.Schema({
     total:{
         type:String,
         required:true
+    },
+    date:{
+        type:String,
+        required:true
     }
 });
 
