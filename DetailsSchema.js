@@ -28,7 +28,7 @@ const DetailsSchema = mongoose.Schema({
         type:String,
         required:true
     },
-    total:{
+    total:{ 
         type:String,
         required:true
     },
