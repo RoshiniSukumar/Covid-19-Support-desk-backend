@@ -35,6 +35,8 @@ const DetailsSchema = mongoose.Schema({
     date:{
         type:String,
         required:true
+       
+
     }
 });
 
